@@ -1,0 +1,17 @@
+<h1>Dice App</h1>
+
+<% dice1= rand(1..6)%>
+<p>
+  <img src="images/dice/<%= dice1%>.svg" alt="">
+</p>
+
+<% dice2= rand(1..6)%>
+<p>
+  <img src="images/dice/<%= dice2%>.svg" alt="">
+</p>
+
+<h2>Total Result: <%= dice1 + dice2%></h2>
+
+<p>
+  <a href="/dice"><button>Roll Again</button></a>
+</p>
